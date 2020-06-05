@@ -4,9 +4,9 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div>
+    <div className='header'>
       <Jumbotron fluid  className='janbotron'>
-        <h1 className='title'>Hayato Terao's Portfolio</h1>
+        <h1 className='headertitle'>Hayato Terao's Portfolio</h1>
       </Jumbotron>
     </div>
   )
