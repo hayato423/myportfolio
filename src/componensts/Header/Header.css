@@ -1,0 +1,11 @@
+.jumbotron{
+  background:url(header.jpg) center no-repeat;
+  background-size: cover;
+  height: 600px;
+
+}
+
+.title{
+  text-align: center;
+  color: aliceblue;
+}
