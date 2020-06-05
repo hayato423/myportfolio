@@ -1,5 +1,31 @@
-.profiletitle {
+.profile-title {
   font-size: 48pt;
   color: black;
   text-align: center;
+  margin: auto;
+}
+
+.profile-underline {
+  border-bottom: solid 3px lightblue;
+}
+
+.profile-table {
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+
+}
+
+.profile-link{
+  color : black;
+}
+.profile-link:hover{
+  color : black;
+}
+.profile-link :visited  {
+  color : black;
+}
+
+.profile {
+  margin : 5% 0;
 }
