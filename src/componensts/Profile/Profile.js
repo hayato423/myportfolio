@@ -27,7 +27,7 @@ const Profile = () => {
           <tbody>
             <tr>
               <th>Club</th>
-              <td><a href='https://shibalab.com/' className='profile-link'>ShibaLab</a></td>
+              <td><a href='https://shibalab.com/' className='profile-link' target="_blank" rel='noopener noreferrer'>ShibaLab</a></td>
             </tr>
           </tbody>
         </table>
