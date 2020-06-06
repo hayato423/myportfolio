@@ -1,5 +1,5 @@
 import React ,{useState}from 'react'
-import {Card,Button ,Col,Modal} from 'react-bootstrap'
+import {Card,Button ,Col,Modal,Image,Row} from 'react-bootstrap'
 
 const WorkCard = (props) => {
   const [show,setShow] = useState(false);
@@ -11,7 +11,7 @@ const WorkCard = (props) => {
     <>
     <Col md={props.md} sm={props.sm} xs={props.xs} className='my-5'>
     <Card >
-      <Card.Img variant='top' src='https://picsum.photos/200/150' />
+      <Card.Img variant='top' src='https://picsum.photos/960/720' className='fluid' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -22,11 +22,18 @@ const WorkCard = (props) => {
     </Card>
     </Col>
 
-    <Modal show={show} onHide={handleClose}>
+    <Modal show={show} onHide={handleClose} centered>
       <Modal.Header closeButton>
         <Modal.Title>Modal heading</Modal.Title>
       </Modal.Header>
-      <Modal.Body>これはモーダルのbodyです。</Modal.Body>
+      <Modal.Body>
+        <Row>
+          <Col>
+        <Image src='https://picsum.photos/1280/720' className='img-fluid'/>
+          </Col>
+        </Row>
+        これはモーダルのbodyです。
+        </Modal.Body>
     </Modal>
     </>
 
