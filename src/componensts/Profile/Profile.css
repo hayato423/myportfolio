@@ -1,8 +1,7 @@
 .profile-title {
-  font-size: 48pt;
-  color: black;
+  font-size: 64pt;
+  color: #333333;
   text-align: center;
-  margin: auto;
 }
 
 .profile-underline {
@@ -10,22 +9,17 @@
 }
 
 .profile-table {
+  font-size: 16pt;
   text-align: center;
-  margin: auto;
-  margin-top: 5%;
-
+  color : #333333;
 }
 
 .profile-link{
-  color : black;
+  color : #333333;
 }
 .profile-link:hover{
-  color : black;
+  color : #333333;
 }
 .profile-link :visited  {
-  color : black;
-}
-
-.profile {
-  margin : 5% 0;
+  color : #333333;
 }

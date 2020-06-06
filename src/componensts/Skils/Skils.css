@@ -1,0 +1,29 @@
+.skils {
+  margin : 15% 0;
+}
+
+
+.skils-headline {
+  font-size: 64pt;
+  color: #333333;
+  text-align: center;
+}
+
+.skils-underline {
+  border-bottom: solid 3px lightblue;
+}
+
+.item {
+  font-size: 16pt;
+}
+
+.ul-align-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col {
+  text-align: center;
+  font-size: 16pt;
+}

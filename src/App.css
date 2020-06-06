@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: #fafafa;
 }
 
 .App-logo {
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Head-line {
+  font-size: 48pt;
+  color: black;
+  text-align: center;
+  margin: auto;
 }
