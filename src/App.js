@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './componensts/Header/Header';
 import Profile from './componensts/Profile/Profile';
 import Skils from './componensts/Skils/Skils';
+import Works from './componensts/Works/Works';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Profile/>
       <Skils/>
+      <Works/>
     </div>
   );
 }

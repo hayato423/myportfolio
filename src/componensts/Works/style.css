@@ -1,0 +1,9 @@
+.head-line {
+  font-size: 64pt;
+  color: #333333;
+  text-align: center;
+}
+
+.under-line {
+  border-bottom: solid 3px lightblue;
+}
