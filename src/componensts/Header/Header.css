@@ -6,9 +6,10 @@
 .jumbotron{
   background:url(header.jpg) center no-repeat;
   background-size: cover;
-  height: 600px;
-
+  padding-top: 0;
+  height: 500px;
 }
+
 
 .headertitle{
   text-align: center;

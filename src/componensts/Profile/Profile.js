@@ -3,7 +3,7 @@ import './Profile.css';
 
 const Profile = () => {
   return (
-    <div className='container py-5'>
+    <div className='container py-5' id='profile'>
         <h1 className='profile-title'><span className='profile-underline'>Profile</span></h1>
         <table className='profile-table mx-auto mt-5'>
           <tbody>

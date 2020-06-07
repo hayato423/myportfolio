@@ -17,7 +17,7 @@ const Works = () => {
     offset: 1
   }
   return (
-    <Container className='my-5 py-5'>
+    <Container className='my-5 py-5' id='works'>
       <h1 className='head-line'><span className='under-line'>Works</span></h1>
       <Row>
         <WorkCard md={md} sm={sm} xs={xs} />

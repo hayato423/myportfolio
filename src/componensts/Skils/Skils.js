@@ -8,7 +8,7 @@ const Skils = () => {
     <Item key={i} value={skil} className='item' />
   );
   return (
-    <Container className='my-5 py-5'>
+    <Container className='my-5 py-5' id='skils'>
       <h1 className='skils-headline'><span className='skils-underline'>Skils</span></h1>
       <Row className='my-5 py-3'>
         {listItems}
