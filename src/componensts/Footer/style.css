@@ -13,3 +13,15 @@
   color: #fefefe;
   font-size: 36pt;
 }
+
+.icon{
+  color: #fefefe;
+}
+
+.icon:hover {
+  color : #696868;
+}
+
+.icon:visited{
+  color : #fefefe;
+}
