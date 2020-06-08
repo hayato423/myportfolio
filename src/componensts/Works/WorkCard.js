@@ -1,19 +1,21 @@
 import React ,{useState}from 'react'
 import {Card,Button ,Col,Modal,Image,Row} from 'react-bootstrap'
-import image from './images/test.JPG';
 
 const WorkCard = (props) => {
   const [show,setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  console.log(image);
+
+  const modalText = props.text.modalText.split('\n').map((str)=>{
+    return (<span>{str}<br></br></span>)
+  });
 
 
   return (
     <>
     <Col md={props.md} sm={props.sm} xs={props.xs} className='my-5'>
     <Card >
-      <Card.Img variant='top' src={image} className='fluid' />
+      <Card.Img variant='top' src={props.text.image} className='fluid' />
       <Card.Body>
         <Card.Title>{props.text.title}</Card.Title>
         <Card.Text>
@@ -34,7 +36,7 @@ const WorkCard = (props) => {
         <Image src={props.text.image} className='img-fluid'/>
           </Col>
         </Row>
-        {props.text.modalText}
+        {modalText}
         </Modal.Body>
     </Modal>
     </>
