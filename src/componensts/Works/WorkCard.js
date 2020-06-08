@@ -1,21 +1,23 @@
 import React ,{useState}from 'react'
 import {Card,Button ,Col,Modal,Image,Row} from 'react-bootstrap'
+import image from './images/test.JPG';
 
 const WorkCard = (props) => {
   const [show,setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  console.log(image);
 
 
   return (
     <>
     <Col md={props.md} sm={props.sm} xs={props.xs} className='my-5'>
     <Card >
-      <Card.Img variant='top' src='https://picsum.photos/960/720' className='fluid' />
+      <Card.Img variant='top' src={image} className='fluid' />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{props.text.title}</Card.Title>
         <Card.Text>
-          これはカードのテキストです。
+          {props.text.cardText}
         </Card.Text>
         <Button variant='primary' onClick={handleShow}>more</Button>
       </Card.Body>
@@ -24,15 +26,15 @@ const WorkCard = (props) => {
 
     <Modal show={show} onHide={handleClose} centered>
       <Modal.Header closeButton>
-        <Modal.Title>Modal heading</Modal.Title>
+        <Modal.Title>{props.text.title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Row>
           <Col>
-        <Image src='https://picsum.photos/1280/720' className='img-fluid'/>
+        <Image src={props.text.image} className='img-fluid'/>
           </Col>
         </Row>
-        これはモーダルのbodyです。
+        {props.text.modalText}
         </Modal.Body>
     </Modal>
     </>
