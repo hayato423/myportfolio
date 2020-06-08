@@ -18,6 +18,7 @@ const Works = () => {
     offset: 1
   }
 
+
   const WorkCards = texts.map((text,i) =>
     <WorkCard key={i} text={text} md={md} sm={sm} xs={xs}/>
     );

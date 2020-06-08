@@ -7,3 +7,7 @@
 .under-line {
   border-bottom: solid 3px lightblue;
 }
+
+iframe {
+  width: 100%;
+}
