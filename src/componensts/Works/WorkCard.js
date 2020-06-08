@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import { Card, Button, Col, Modal, Image, Row } from 'react-bootstrap'
 
 const WorkCard = (props) => {
@@ -9,6 +9,7 @@ const WorkCard = (props) => {
   const modalText = props.text.modalText.split('\n').map((str) => {
     return (<span>{str}<br></br></span>)
   });
+
 
   return (
     <>
@@ -40,6 +41,9 @@ const WorkCard = (props) => {
           </Row>
           {modalText}
         </Modal.Body>
+        <Modal.Footer>
+          <a className='mr-auto' href={props.text.link} target="_blank" rel='noopener noreferrer' style={{fontSize:20}}>{props.text.linkName}</a>
+        </Modal.Footer>
       </Modal>
     </>
 
