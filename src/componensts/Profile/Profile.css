@@ -23,3 +23,8 @@
 .profile-link :visited  {
   color : #333333;
 }
+
+.img {
+  width: 200px;
+  height: 200px;
+}
