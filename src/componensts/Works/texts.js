@@ -1,8 +1,8 @@
 import serendipity from './images/srendipity.jpg';
 import tansan from './images/tansan_splash.jpg';
-import tansan_gif from './images/tansan.gif';
+import tansan_gif from './images/tansan2.gif';
 import digital_spray from './images/digital_spray.jpg';
-import digital_spray_gif from './images/digital_splay.gif';
+import digital_spray_gif from './images/digital_splay2.gif';
 import drunk_checker from './images/drunk-checker.png';
 import portfolio from './images/portfolio.png';
 
