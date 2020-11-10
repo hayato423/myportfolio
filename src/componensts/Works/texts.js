@@ -3,8 +3,9 @@ import tansan from './images/tansan_splash.jpg';
 import tansan_gif from './images/tansan2.gif';
 import digital_spray from './images/digital_spray.jpg';
 import digital_spray_gif from './images/digital_splay2.gif';
-import drunk_checker from './images/drunk-checker.png';
+import drunk_checker from './images/drunk_checker.png';
 import portfolio from './images/portfolio.png';
+import kakeibo from './images/mykakeibo.png';
 
 
 const texts = [
@@ -58,12 +59,14 @@ const texts = [
     thumbnail : portfolio
   },
   {
-    title : 'my家計簿アプリ',
+    title : '自作家計簿アプリ',
     cardText : '自分専用の家計簿アプリ',
     modalText : `node.jsとPostgreSqlを使った自分専用の家計簿webアプリです。
                 現在の所持金と所持金からカード支払額を引いた実質所持金額を表示しています。
                 カード支払い日になると自動的に所持金から支払額が引かれます。
-                またサブスクリプションについても同様で、支払日になると自動でカード支払額に加算されます。`
+                またサブスクリプションについても同様で、支払日になると自動でカード支払額に加算されます。`,
+    image : kakeibo,
+    thumbnail : kakeibo
   }
 ];
 
