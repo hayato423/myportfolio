@@ -33,9 +33,9 @@ const WorkCard = (props) => {
         <Modal.Body>
           <Row>
             <Col >
-            {(props.text.video != undefined) && <div className='embed-responsive embed-responsive-16by9 img-fluid'>
-                <iframe className='embed-responsive-item' src={props.text.video} allowFullScreen></iframe>
-                </div>}
+              {/*<div className='embed-responsive embed-responsive-1by1 img-fluid'>
+                <iframe className='embed-responsive-item' src={props.text.image} allowFullScreen></iframe>
+                </div> */}
               <Image src={props.text.image} className='img-fluid'/>
             </Col>
           </Row>

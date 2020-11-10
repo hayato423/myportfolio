@@ -1,13 +1,11 @@
-import serendipity from './images/srendipity.jpg'
-import tansan from './images/tansan_splash.jpg'
-import tansan_gif from './images/tansan2.gif'
-import digital_spray from './images/digital_spray.jpg'
-import digital_spray_gif from './images/digital_splay2.gif'
-import drunk_checker from './images/drunk_checker.png'
-import portfolio from './images/portfolio.png'
-import kakeibo from './images/mykakeibo.png'
-import magic_circle from './images/magic_circle.png'
-import magic_circle_video from './images/MagicCircle.mp4'
+import serendipity from './images/srendipity.jpg';
+import tansan from './images/tansan_splash.jpg';
+import tansan_gif from './images/tansan2.gif';
+import digital_spray from './images/digital_spray.jpg';
+import digital_spray_gif from './images/digital_splay2.gif';
+import drunk_checker from './images/drunk_checker.png';
+import portfolio from './images/portfolio.png';
+import kakeibo from './images/mykakeibo.png';
 
 
 const texts = [
@@ -69,15 +67,6 @@ const texts = [
                 またサブスクリプションについても同様で、支払日になると自動でカード支払額に加算されます。`,
     image : kakeibo,
     thumbnail : kakeibo
-  },
-  {
-    title : 'Magic Circle',
-    cardText : 'オリジナルの魔法を創る',
-    modalText : `タブレットに魔法陣を描くと、魔法が発動されます。
-                描いた魔法陣の模様により、魔法が変化し、自分だけの魔法を創ることができます。
-                魔法陣を描くフロント部分はp5.js、魔法陣の画像処理部分にDjangoとopencvを使用し、魔法の描画にはUnityを使っています。`,
-    thumbnail : magic_circle,
-    video : magic_circle_video
   }
 ];
 
