@@ -23,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 /src/componensts/Works/images
+
+*.png
+*.jpg
+*.gif
+*.mp4
